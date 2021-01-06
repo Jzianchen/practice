@@ -26,3 +26,27 @@ if the_transformation1 == the_verification_code:
 	print('you are right!')
 else:
 	print('you are wrong!')
+​
+form = []
+b=11
+for i in range(1,b):
+	a = input('please write down your score')
+	print('---->',i)
+	if int(a) in range(1,11):
+		pass
+		form.append(int(a))
+	else:
+		b=b+1
+		print(b,range(1,b))
+		
+			
+			
+		print('Please enter a number between 1 and 10 ')
+	print(form)
+print(form.sort())
+print('remove----->',form.pop(0), form.pop())
+print(form)
+combination = sum(form)
+print(sum(form),combination/8)
+
+​
